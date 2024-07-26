@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Blog</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        {{#if logged_in}}
+        <nav>
+            <a href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <a id="logout" href="/logout">Logout</a>
+        </nav>
+        {{else}}
+        <nav>
+            <a href="/">Home</a>
+            <a href="/login">Login</a>
+            <a href="/signup">Sign Up</a>
+        </nav>
+        {{/if}}
+    </header>
+    {{{body}}}
+    <script src="/js/login.js"></script>
+    <script src="/js/logout.js"></script>
+    <script src="/js/blogpost.js"></script>
+    <script src="/js/comment.js"></script>
+    {{#if is_signup}}
+    <script src="/js/signup.js"></script>
+    {{/if}}
+</body>
+</html>

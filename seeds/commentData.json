@@ -1,0 +1,12 @@
+[
+    {
+      "comment_text": "Great post!",
+      "user_id": 1,
+      "blogpost_id": 1
+    },
+    {
+      "comment_text": "Thanks for sharing.",
+      "user_id": 2,
+      "blogpost_id": 2
+    }
+  ]

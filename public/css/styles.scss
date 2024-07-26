@@ -1,0 +1,55 @@
+// Import Bootstrap for basic styles
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
